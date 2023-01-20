@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Todo list</title>
+    <link rel="stylesheet"href="main.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <mainc class="app">
+        <section class="greeting">
+            <h2 class="title">
+                What' s up, <input type="text"  id="name" placeholder="Name here">
+
+            </h2>
+
+        </section>
+        <section class="create-todo">
+            <h3>CREATE A TODO</h3>
+            <form id="new-todo-form">
+             <h4> What are you planning?  </h4>
+             <input
+              type="text"
+               name="content" 
+               id="content"
+                placeholder="what' s in your todo list"/>
+                <h4>Pick a category</h4>
+                <div class="options">
+                    <label>
+                        <input
+                         type="radio"
+                          name="category"
+                           id="category1"
+                           value="school"/>
+                           <span class="bubble school"></span>
+                           <div>School</div>
+                    </label>
+                    <label>
+                        <input
+                         type="radio"
+                          name="category"
+                           id="category2"
+                           value="personal"/>
+                           <span class="bubble personal"></span>
+                           <div>personal</div>
+                    </label>
+                </div>
+                <input type="submit" value="Add todo" />
+            </form>
+            </section>
+        
+            <section class="todo-list">
+                <h3>TODO LIST</h3>
+                <div class="list" id="todo-list">
+                </div>
+               
+                </div>
+            </section>
+           
+            <section class="todo-list">
+    </main>
+    <script src="main.js"></script>
+</body>
+   
+</html>
