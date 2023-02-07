@@ -206,10 +206,7 @@ input:checked ~ .bubble::after {
 	cursor: pointer;
 	transition: 0.2s ease-in-out;
 }
-.todo-item .actions button:hover {
-	opacity: 0.75;
-	width: 10%;
-}
+
 
 .todo-item .actions .edit {
 	margin-right: 0.5rem;
